@@ -6,7 +6,15 @@
 </head>
 <body>
     <script>
-        window.location.href = "https://v1.220vk.ru";
+
+        if (window.location.search.replace( '?', '').indexOf('new') !== -1) {
+
+            window.location.href = "https://new.220vk.ru";
+
+        } else {
+
+            window.location.href = "https://v1.220vk.ru";
+        }
     </script>
 </body>
 </html>
