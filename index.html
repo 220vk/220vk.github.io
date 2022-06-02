@@ -6,18 +6,22 @@
 </head>
 <body>
     <script>
+        
+        var linkType1 = "https://v1.220vk.ru";
+        var linkType2 = "https://new.220vk.ru";
+        var linkType3 = "https://www.kaspersky.ru/blog/vpn-explained/10635/";
 
         if (window.location.search.replace('?', '').indexOf('vpn') !== -1) {
 
-            window.location.href = "https://www.kaspersky.ru/blog/vpn-explained/10635/";
+            window.location.href = linkType3;
 
         } else if (window.location.search.replace('?', '').indexOf('new') !== -1) {
 
-            window.location.href = "https://new.220vk.ru";
+            window.location.href = linkType2;
 
         } else {
 
-            window.location.href = "https://v1.220vk.ru";
+            window.location.href = linkType1;
         }
     </script>
 </body>
